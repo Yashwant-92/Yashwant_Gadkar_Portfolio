@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yashwant Gadkar — Java Full Stack Developer</title>
+<meta name="description" content="Portfolio of Yashwant Gadkar — Java Full Stack Developer specializing in Spring Boot, Angular, React, and MySQL.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<canvas id="cosmos"></canvas>
+<div class="glow-follow" id="gf"></div>
+<nav class="nav" id="nb">
+  <a href="#" class="logo">Yashwant<em>.</em></a>
+  <ul class="nav-menu" id="nm">
+    <li><a href="#about" onclick="closeM()">About</a></li>
+    <li><a href="#skills" onclick="closeM()">Skills</a></li>
+    <li><a href="#experience" onclick="closeM()">Experience</a></li>
+    <li><a href="#projects" onclick="closeM()">Projects</a></li>
+    <li><a href="#education" onclick="closeM()">Education</a></li>
+    <li><a href="#contact" onclick="closeM()" class="nav-cta">Hire Me</a></li>
+  </ul>
+  <button class="burger" id="bg" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+<section class="hero" id="hero">
+  <div class="hero-inner">
+    <div class="hero-chip"><span class="dot"></span>Open to Opportunities</div>
+    <h1><span class="row">I Build</span><span class="row"><span class="grad">Scalable</span> Systems</span></h1>
+    <p class="hero-sub">Java Full Stack Developer with 1.5+ years of experience in Spring Boot, Angular, React &amp; MySQL — crafting secure, high-performance web applications from backend to frontend.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-fill">Explore Projects <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      <a href="#contact" class="btn-ghost">Get In Touch <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+    </div>
+  </div>
+  <div class="scroll-hint"><span>Scroll</span><div class="bar"></div></div>
+</section>
+<section id="about">
+  <div class="sec-head rv"><span class="sec-tag">// 01 — About</span><h2 class="sec-title">Who I Am</h2></div>
+  <div class="about-layout">
+    <div class="about-card rv rd1">
+      <div class="avatar">YG</div>
+      <h3>Yashwant Gadkar</h3>
+      <div class="about-role">Java Full Stack Developer</div>
+      <div class="about-loc">📍 Shegaon, Maharashtra 444203</div>
+      <div class="about-stats">
+        <div class="stat"><span class="stat-val" data-count="1.5">0</span><span class="stat-lbl">Yrs Exp</span></div>
+        <div class="stat"><span class="stat-val" data-count="6">0</span><span class="stat-lbl">Projects</span></div>
+        <div class="stat"><span class="stat-val" data-count="4">0</span><span class="stat-lbl">Internships</span></div>
+      </div>
+      <div class="about-contact-list">
+        <div class="about-contact-item"><span class="ico">📧</span><span><a href="mailto:yashwantgadkar92@gmail.com">yashwantgadkar92@gmail.com</a></span></div>
+        <div class="about-contact-item"><span class="ico">📞</span><span>+91-9284309705</span></div>
+        <div class="about-contact-item"><span class="ico">🌐</span><span>github.com/Yashwant-92</span></div>
+      </div>
+    </div>
+    <div class="about-text rv rd2">
+      <p>Passionate about building scalable backend services and responsive web applications that make a real impact. With hands-on experience across healthcare systems, government portals, and enterprise tools, I blend full-stack expertise with a deep focus on clean architecture and secure system design.</p>
+      <p>My journey spans from developing a Digital Gram Panchayat portal with Razorpay integration to building bio-signal-based cancer detection systems. I thrive in Agile environments and love transforming complex requirements into elegant, performant solutions.</p>
+      <p>I speak English, Hindi, and Marathi fluently, and stay current with AI tools including Claude AI, Google Gemini, and Microsoft Copilot to supercharge my development workflow.</p>
+      <div class="tag-cloud">
+        <span class="tag">Java 17</span><span class="tag">Spring Boot</span><span class="tag">Angular 16</span><span class="tag">React.js</span><span class="tag">MySQL</span><span class="tag">REST APIs</span><span class="tag">Hibernate</span><span class="tag">Spring Security</span><span class="tag">Microservices</span><span class="tag">TypeScript</span><span class="tag">JavaScript</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Bootstrap 5</span><span class="tag">Git</span><span class="tag">Maven</span><span class="tag">Postman</span><span class="tag">JUnit</span><span class="tag">Oracle</span><span class="tag">Figma</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="skills">
+  <div class="sec-head rv"><span class="sec-tag">// 02 — Skills</span><h2 class="sec-title">Technical Arsenal</h2><p class="sec-sub">Battle-tested technologies across the full stack.</p></div>
+  <div class="skills-grid">
+    <div class="skill-tile s1 rv rd1"><div class="skill-ico">☕</div><h3>Java &amp; Backend</h3><p>Java 17, Spring Boot, Spring MVC, Spring Security, Hibernate ORM, JPA, REST APIs, Microservices, Servlets.</p><div class="bar-track"><div class="bar-fill" data-w="92%"></div></div><div class="bar-pct">92%</div></div>
+    <div class="skill-tile s2 rv rd2"><div class="skill-ico">⚛️</div><h3>Frontend Development</h3><p>Angular 16, React.js, TypeScript, JavaScript, HTML5, CSS3, Bootstrap 5, Responsive UI Design.</p><div class="bar-track"><div class="bar-fill" data-w="88%"></div></div><div class="bar-pct">88%</div></div>
+    <div class="skill-tile s3 rv rd3"><div class="skill-ico">🗄️</div><h3>Databases</h3><p>MySQL, Oracle, JDBC, Spring Data JPA. Schema design, query optimization, and data modeling.</p><div class="bar-track"><div class="bar-fill" data-w="85%"></div></div><div class="bar-pct">85%</div></div>
+    <div class="skill-tile s4 rv rd4"><div class="skill-ico">🔐</div><h3>Security &amp; Auth</h3><p>Spring Security, JWT, RBAC, encrypted passwords, OTP-based recovery, field-level access control.</p><div class="bar-track"><div class="bar-fill" data-w="87%"></div></div><div class="bar-pct">87%</div></div>
+    <div class="skill-tile s5 rv rd1"><div class="skill-ico">🛠️</div><h3>DevTools &amp; Practices</h3><p>Git, GitHub, Maven, Postman, Eclipse, VS Code. Agile, Scrum, JUnit, Integration Testing, Code Reviews.</p><div class="bar-track"><div class="bar-fill" data-w="83%"></div></div><div class="bar-pct">83%</div></div>
+    <div class="skill-tile s6 rv rd2"><div class="skill-ico">🤖</div><h3>AI Tools</h3><p>Google Gemini, Claude AI, Microsoft Copilot, OpenAI, Render — leveraging AI to accelerate development.</p><div class="bar-track"><div class="bar-fill" data-w="80%"></div></div><div class="bar-pct">80%</div></div>
+  </div>
+</section>
+<section id="experience">
+  <div class="sec-head rv"><span class="sec-tag">// 03 — Experience</span><h2 class="sec-title">Career Journey</h2><p class="sec-sub">Professional milestones and hands-on internships.</p></div>
+  <div class="timeline-wrap">
+    <div class="timeline-line"></div>
+    <div class="tl-item rv rd1"><div class="tl-dot"></div><div class="tl-date">Aug 2025 — Jan 2026</div><div class="tl-card"><h4>Java Full Stack Developer Intern</h4><div class="tl-company">AiSense LLP</div><div class="tl-loc">Mumbai, India</div><ul><li>Developed a full-stack healthcare app using Spring Boot, Angular &amp; MySQL</li><li>Implemented secure auth, encrypted passwords, and OTP-based recovery</li><li>Built multi-step patient onboarding with consent capture &amp; live photo verification</li><li>Integrated ICD-10 disease code mapping for automated medical data classification</li><li>Implemented bio-signal data processing for voice, pulse &amp; motor movement</li><li>Built responsive Angular UI components for seamless UX</li></ul><div class="tl-tech"><span>Java</span><span>Spring Boot</span><span>Angular</span><span>REST APIs</span><span>MySQL</span></div></div></div>
+    <div class="tl-item rv rd2"><div class="tl-dot"></div><div class="tl-date">Jan 2025 — Jul 2025</div><div class="tl-card"><h4>Software Development Intern</h4><div class="tl-company">Future Wave Space Foundation</div><div class="tl-loc">Shegaon, India</div><ul><li>Built a secure Spring Boot + MySQL app with RBAC for 200+ users</li><li>Designed Thymeleaf dashboards, improving navigation speed by 40%</li><li>Integrated ICD-10 API, reducing manual data entry errors by 80%</li><li>Developed real-time appointment scheduling, boosting booking efficiency by 60%</li><li>Implemented CRUD modules with field-level access for 500+ patient records</li></ul><div class="tl-tech"><span>Java</span><span>Spring Boot</span><span>Thymeleaf</span><span>MySQL</span><span>Postman</span></div></div></div>
+    <div class="tl-item rv rd3"><div class="tl-dot"></div><div class="tl-date">Sept 2024 — Jan 2025</div><div class="tl-card"><h4>Web Content Designer Intern</h4><div class="tl-company">GAOTek Inc.</div><div class="tl-loc">New York, USA (Remote)</div><ul><li>Managed and optimized 300+ WordPress product pages with 100% metadata accuracy</li><li>Standardized content across 15+ industry pages, reducing corrections by 40%</li><li>Revamped content using AI tools, improving search rankings by 25%</li></ul><div class="tl-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>WordPress</span></div></div></div>
+    <div class="tl-item rv rd4"><div class="tl-dot"></div><div class="tl-date">Aug 2024 — Jan 2025</div><div class="tl-card"><h4>Java Full Stack Developer Intern</h4><div class="tl-company">Java by Kiran Academy</div><div class="tl-loc">Pune, India</div><ul><li>Developed role-based attendance tracking system for 500+ students</li><li>Implemented secure login &amp; dashboards, reducing manual work by 60%</li><li>Enabled real-time tracking, improving data accuracy by 50%</li></ul><div class="tl-tech"><span>Java</span><span>Spring Boot</span><span>Angular</span><span>MySQL</span><span>REST APIs</span></div></div></div>
+  </div>
+</section>
+<section id="projects">
+  <div class="sec-head rv"><span class="sec-tag">// 04 — Projects</span><h2 class="sec-title">Featured Work</h2><p class="sec-sub">From healthcare to government services — systems built to perform.</p></div>
+  <div class="proj-grid">
+    <div class="proj-card rv rd1"><div class="proj-vis"><div class="proj-bg pgrad-1">🏛️</div><div class="proj-over"><button class="proj-over-btn" onclick="openMdl(0)">View Details</button></div></div><div class="proj-body"><div class="proj-tags"><span class="proj-tag">Spring Boot</span><span class="proj-tag">React.js</span><span class="proj-tag">Razorpay</span><span class="proj-tag">MySQL</span></div><h3>GPSEVA — Digital Gram Panchayat Portal</h3><p>Full-stack web app for Gram Panchayats to register, upload documents, and launch official websites with automated 24-hour deployment.</p></div><div class="proj-foot"><a href="https://gpseva.agsmsgclub.com/" class="proj-link">Live Demo <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a><a href="https://github.com/Yashwant-92/GpSeva" class="proj-link" target="_blank">GitHub ↗</a></div></div>
+    <div class="proj-card rv rd2"><div class="proj-vis"><div class="proj-bg pgrad-2">🧬</div><div class="proj-over"><button class="proj-over-btn" onclick="openMdl(1)">View Details</button></div></div><div class="proj-body"><div class="proj-tags"><span class="proj-tag">Spring Boot</span><span class="proj-tag">Thymeleaf</span><span class="proj-tag">MySQL</span><span class="proj-tag">Bio-Signals</span></div><h3>Bio-Signal Cancer Detection System</h3><p>Healthcare application for early, non-invasive cancer detection using bio-signals and behavioural data analysis.</p></div><div class="proj-foot"><a href="https://bs.aisense.co.in/" class="proj-link">Live Demo <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a><a href="https://github.com/Yashwant-92" class="proj-link" target="_blank">GitHub ↗</a></div></div>
+    <div class="proj-card rv rd3"><div class="proj-vis"><div class="proj-bg pgrad-3">🏥</div><div class="proj-over"><button class="proj-over-btn" onclick="openMdl(2)">View Details</button></div></div><div class="proj-body"><div class="proj-tags"><span class="proj-tag">Spring Boot</span><span class="proj-tag">Hibernate</span><span class="proj-tag">Angular</span><span class="proj-tag">MySQL</span></div><h3>Hospital Management System</h3><p>Enterprise-grade HMS with RBAC modules for doctors, patients &amp; admins, optimized for secure multi-user performance.</p></div><div class="proj-foot"><a href="#" class="proj-link">Live Demo <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a><a href="https://github.com/Yashwant-92" class="proj-link" target="_blank">GitHub ↗</a></div></div>
+  </div>
+</section>
+<section id="education">
+  <div class="sec-head rv"><span class="sec-tag">// 05 — Education &amp; Certs</span><h2 class="sec-title">Academic Foundation</h2></div>
+  <div class="edu-grid">
+    <div class="edu-card rv rd1"><span class="edu-icon">🎓</span><h4>MCA — Computer Applications</h4><div class="edu-inst">Saraswati College, Shegaon</div><div class="edu-year">Jun 2023 — Sept 2025</div><div class="edu-score">CGPA: <strong>8.59</strong></div></div>
+    <div class="edu-card rv rd2"><span class="edu-icon">📚</span><h4>B.Sc. — Computer Science</h4><div class="edu-inst">Shri D.M.B. College, Shegaon</div><div class="edu-year">Aug 2020 — May 2023</div><div class="edu-score">Percentage: <strong>75.85%</strong></div></div>
+  </div>
+  <div class="cert-row rv rd3">
+    <div class="cert-badge">🏅 TCS-ION Career Edge — Young Professional</div>
+    <div class="cert-badge">⌨️ GCC-TBC Typing Certification</div>
+    <div class="cert-badge">🌐 Web Development Fundamentals — IBM Skills Build</div>
+    <div class="cert-badge">☕ Java Full Stack Developer — Coursera</div>
+  </div>
+</section>
+<section id="contact">
+  <div class="sec-head rv"><span class="sec-tag">// 06 — Contact</span><h2 class="sec-title">Let's Connect</h2><p class="sec-sub">Got a project or opportunity? I'd love to hear from you.</p></div>
+  <div class="contact-shell rv rd1">
+    <div class="c-info">
+      <h3>Reach Out</h3>
+      <p>I'm currently open to full-time roles and freelance opportunities. Let's build something impactful together.</p>
+      <div class="c-row"><div class="c-ico">📧</div><a href="mailto:yashwantgadkar92@gmail.com">yashwantgadkar92@gmail.com</a></div>
+      <div class="c-row"><div class="c-ico">📞</div><span>+91-9284309705</span></div>
+      <div class="c-row"><div class="c-ico">📍</div><span>Shegaon, Maharashtra 444203</span></div>
+      <div class="c-row"><div class="c-ico">💼</div><a href="https://linkedin.com/in/yashwant-gadkar" target="_blank">linkedin/yashwant-gadkar</a></div>
+      <div class="c-row"><div class="c-ico">🐙</div><a href="https://github.com/Yashwant-92" target="_blank">github/Yashwant-92</a></div>
+    </div>
+    <form class="c-form" id="cform" novalidate>
+      <div class="fg"><input type="text" id="fn" placeholder="Your Name" required><label for="fn">Name</label><div class="ferr">Please enter your name.</div></div>
+      <div class="fg"><input type="email" id="em" placeholder="Your Email" required><label for="em">Email</label><div class="ferr">Please enter a valid email.</div></div>
+      <div class="fg"><input type="text" id="sb" placeholder="Subject" required><label for="sb">Subject</label><div class="ferr">Please enter a subject.</div></div>
+      <div class="fg"><textarea id="msg" placeholder="Your Message" required></textarea><label for="msg">Message</label><div class="ferr">Min 10 characters required.</div></div>
+      <button type="submit" class="btn-send" id="sendbtn">Send Message ✉️</button>
+    </form>
+  </div>
+</section>
+<footer class="footer">
+  <div class="foot-links">
+    <a href="https://github.com/Yashwant-92" target="_blank" class="foot-ico" title="GitHub"><svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+    <a href="https://linkedin.com/in/yashwant-gadkar" target="_blank" class="foot-ico" title="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+    <a href="mailto:yashwantgadkar92@gmail.com" class="foot-ico" title="Email"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+  </div>
+  <p>Designed &amp; Built by <a href="#">Yashwant Gadkar</a> · © 2026</p>
+</footer>
+<div class="mdl-bg" id="mdlbg">
+  <div class="mdl" id="mdl">
+    <button class="mdl-x" onclick="closeMdl()">✕</button>
+    <h3 id="mt"></h3>
+    <div class="proj-tags" id="mtags"></div>
+    <p id="mdesc"></p>
+    <ul class="mdl-feats" id="mfeats"></ul>
+    <a href="https://github.com/Yashwant-92" target="_blank" class="btn-fill" style="display:inline-flex;text-decoration:none;font-size:.88rem;">View on GitHub <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg></a>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
